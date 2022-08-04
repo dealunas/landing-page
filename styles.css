@@ -85,7 +85,7 @@ button.blue-sign{
     font-weight:bolder;
     color:#1F2937;
     justify-content:center;
-    padding-bottom:25px;
+    padding-bottom:50px;
 }
 .info{
     display:flex;
@@ -120,4 +120,42 @@ button.blue-sign{
     justify-content:flex-end;
     font-size:24px;
     font-weight:bold;
+}
+
+.call{
+    display:flex;
+    padding:25px 150px;
+    margin:80px 300px;
+    border-radius:8px;
+    justify-content:space-between;
+    align-items:center;
+    background-color:#3882F6;
+}
+
+.call-left{
+    display:flex;
+    flex-direction:column;
+}
+
+.call-title{
+    font-size:24px;
+    color:white;
+    font-weight:bold;
+}
+
+.call-text{
+    color:white;
+}
+
+.call-right{
+    display:flex;
+}
+
+.call-sign{
+    background-color:#3882F6;
+    border-color:white;
+    border-style:solid;
+    color:white;
+    width:100px;
+    height:30px;
 }
