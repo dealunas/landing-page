@@ -76,7 +76,7 @@ button.blue-sign{
 .body{
     display:flex;
     flex-direction:column;
-    padding-bottom:75px;
+    padding:75px;
 }
 
 .info-title{
@@ -85,12 +85,12 @@ button.blue-sign{
     font-weight:bolder;
     color:#1F2937;
     justify-content:center;
-    padding:25px;
+    padding-bottom:25px;
 }
 .info{
     display:flex;
     justify-content:center;
-    gap:40px;
+    gap:80px;
 }
 
 .boxes{
@@ -101,3 +101,23 @@ button.blue-sign{
     color:rgb(62, 71, 80);
 }
 
+.quote-box{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:75px 400px;
+    background-color:#E5E7EB;
+}
+
+.quote{
+    font-size:36px;
+    font-style:italic;
+    color:#1F2937;
+}
+
+.author{
+    display:flex;
+    justify-content:flex-end;
+    font-size:24px;
+    font-weight:bold;
+}
