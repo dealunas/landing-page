@@ -96,11 +96,15 @@ button.blue-sign{
 .boxes{
     display:flex;
     flex-direction:column;
-    justify-content:center;
+    justify-content:space-between;
     width:150px;
     color:rgb(62, 71, 80);
 }
 
+.text{
+    text-align:center;
+    font-weight:bold;
+}
 .quote-box{
     display:flex;
     flex-direction:column;
